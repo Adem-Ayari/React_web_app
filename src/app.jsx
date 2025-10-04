@@ -1,6 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import Section from "./section";
-import "./section.css";
+import Section from "./components/section.jsx";
+import "./components/section.css";
 
 const sections = [
   { id: 1, name: "Green Smoothie", color: "green" },
@@ -13,7 +13,7 @@ export default function App() {
   const navigate = useNavigate();
   return (
     <div className="app-wrapper">
-      <span className="wavyname">SmoothieJuice</span>
+      <span className="wavyname">Smooooothieeee</span>
       <div
         className="userstuff"
         onClick={() => {
@@ -21,7 +21,7 @@ export default function App() {
         }}
       >
         <img
-          src="OIP4.jpg"
+          src="./OIP4.jpg"
           alt=""
           style={{
             width: "2.5rem",

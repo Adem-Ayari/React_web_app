@@ -6,11 +6,11 @@ export default function Login() {
       <div className="wrapper">
         <span className="tagtitle">Login</span>
         <div className="inputs1">
-          <img src="OIP4.jpg" className="mailima" alt="email icon" />
+          <img src="./OIP4.jpg" className="mailima" alt="email icon" />
           <input type="email" name="Email" id="Email" placeholder="Email" />
         </div>
         <div className="inputs2">
-          <img src="OIP4.jpg" className="pass" alt="password icon" />
+          <img src="./OIP4.jpg" className="pass" alt="password icon" />
           <input
             type="password"
             name="Password"
