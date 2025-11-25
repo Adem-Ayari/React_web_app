@@ -1,4 +1,3 @@
-import { useNavigate } from "react-router-dom";
 import Section from "./components/section";
 import "./components/section.css";
 
@@ -10,15 +9,11 @@ const sections = [
 ];
 
 export default function App() {
-  const navigate = useNavigate();
   return (
     <div className="app-wrapper">
       <span className="wavyname">Smooooothieeee</span>
       <div
         className="userstuff"
-        onClick={() => {
-          navigate("/account");
-        }}
       >
         <img
           src="./OIP4.jpg"
